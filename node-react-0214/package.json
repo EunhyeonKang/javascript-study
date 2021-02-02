@@ -1,0 +1,36 @@
+{
+  "name": "boilor-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "^1.4.4",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangeunhyeon/node-react-0214.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kangeunhyeon/node-react-0214/issues"
+  },
+  "homepage": "https://github.com/kangeunhyeon/node-react-0214#readme"
+}
